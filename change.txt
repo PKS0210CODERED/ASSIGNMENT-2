@@ -1,1 +1,167 @@
 this changes will be mafe on the master 
+
+question 02 code part:
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git add .
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git commit -m "first commit"
+[main 82bf6b4] first commit
+ 1 file changed, 29 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 663 bytes | 663.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/PKS0210CODERED/ASSIGNMENT-2.git
+   b1af307..82bf6b4  main -> main
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git add .
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git commit -m "text file for question 1"
+
+[main ea02fa6] text file for question 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 question1Ans.txt
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/PKS0210CODERED/ASSIGNMENT-2.git
+   82bf6b4..ea02fa6  main -> main
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git branch master
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git checkout master
+Switched to branch 'master'
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git branch
+  main
+* master
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git add .
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git commit -m "the changes on master bra
+nch"
+[master 4d6ff38] the changes on master branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 change.txt
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git merge
+fatal: No remote for the current branch.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git push --set-upstream origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/PKS0210CODERED/ASSIGNMENT-2/pull/new/master
+remote:
+To https://github.com/PKS0210CODERED/ASSIGNMENT-2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   change.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git pull
+Already up to date.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git checkout main
+error: Your local changes to the following files would be overwritten by checko
+ut:
+        change.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git branch
+  main
+* master
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git checkout main
+error: Your local changes to the following files would be overwritten by checko
+ut:
+        change.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git commit -m "the changes on master bra
+nch"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   change.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git add .
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git commit -m "the changes on master bra
+nch"
+[master dd89c1f] the changes on master branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git branch
+* main
+  master
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git merge master
+Updating ea02fa6..dd89c1f
+Fast-forward
+ change.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 change.txt
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git pull
+Already up to date.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git branch
+* main
+  master
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git merge master
+Already up to date.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git merge main
+Already up to date.
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
