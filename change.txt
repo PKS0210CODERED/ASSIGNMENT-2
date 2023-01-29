@@ -165,3 +165,46 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
+PS C:\Users\user\Desktop\ASSIGNMENT-2> git log
+commit e9a9bd7e808159a0265e57c7ea8da7ff65975795 (HEAD -> main, origin/main, origin/HEAD)
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 13:13:22 2023 +0530
+
+    last update
+:...skipping...
+commit e9a9bd7e808159a0265e57c7ea8da7ff65975795 (HEAD -> main, origin/main, origin/HEAD)
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 13:13:22 2023 +0530
+
+    last update
+
+commit dd89c1f42dd89c61c8f5e00f5cc9a61b7af1508e (master)
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 12:57:26 2023 +0530
+
+    the changes on master branch
+
+commit 4d6ff389396bf12270cbf9a78973bf63a61a1ec4 (origin/master)
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 12:45:00 2023 +0530
+
+    the changes on master branch
+
+commit ea02fa643a0f9d48b8b5c72e4e385b092626491f
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 12:37:22 2023 +0530
+
+    text file for question 1
+
+commit 82bf6b48682adc00d94d088d5044160f1be06ae5
+Author: PKS0210CODERED <saanusansaanu@gmail.com>
+Date:   Sun Jan 29 12:34:18 2023 +0530
+
+    first commit
+
+commit b1af307b6f3e42c8ae4bdac6e3f3d756400c9222
+Author: P.K. SAANUSAN <120698644+PKS0210CODERED@users.noreply.github.com>
+Date:   Sun Jan 29 12:29:54 2023 +0530
+
+    Initial commit
